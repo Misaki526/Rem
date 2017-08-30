@@ -49,7 +49,9 @@ public class FixedViewUtil {
 			View temp = listAdapter.getView(i,null,lv);
 			temp.measure(0,0);
 			listViewHeight += temp.getMeasuredHeight();
+			listViewHeight += 10;
 		}
+		listViewHeight -= 10;
 		LayoutParams layoutParams = lv.getLayoutParams();
 		layoutParams.width = LayoutParams.MATCH_PARENT;
 		layoutParams.height = listViewHeight;

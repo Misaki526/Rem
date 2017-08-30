@@ -217,12 +217,12 @@
                     android:textColor="#797D88"
                     android:textSize="16sp" />
 
-                <!--<include-->
-                    <!--android:id="@+id/number_input_et"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_marginLeft="6dp"-->
-                    <!--layout="@layout/number_input_et" />-->
+                <include
+                    android:id="@+id/number_input_et"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    layout="@layout/number_input_et" />
             </LinearLayout>
         </LinearLayout>
 
